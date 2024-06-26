@@ -61,6 +61,11 @@ body {
 @media (max-width: 768px) {
     .catalog-items {
         grid-template-columns: repeat(2, 1fr);
+        width: 375px;
+        height: 1, 660px;
+        padding: 0px 20px 0px 20px;
+        gap: 24px;
+        opacity: 0px;
     }
 
     .catalog-item:nth-child(n+5) {
